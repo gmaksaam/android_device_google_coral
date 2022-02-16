@@ -16,3 +16,6 @@ BOARD_SEPOLICY_DIRS += hardware/google/pixel-sepolicy/powerstats
 # system_ext
 SYSTEM_EXT_PUBLIC_SEPOLICY_DIRS += device/google/coral/sepolicy/system_ext/public
 SYSTEM_EXT_PRIVATE_SEPOLICY_DIRS += device/google/coral/sepolicy/system_ext/private
+
+# Battery
+BOARD_SEPOLICY_DIRS += hardware/google/pixel-sepolicy/googlebattery
